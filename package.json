@@ -1,0 +1,10 @@
+{
+  "name": "chege-boop",
+  "version": "1.0.0",
+  "description": "Profile hub featuring outdoor analytics repos: trail-pathfinder-ai, gpstrack-cleaner-cli, and bikemate-iot-monitor.",
+  "main": "bin/autoinit.js",
+  "bin": { "autoinit": "./bin/autoinit.js" },
+  "scripts": { "start": "node bin/autoinit.js" },
+  "dependencies": { "axios": "^1.6.2", "inquirer": "^9.2.0" },
+  "license": "MIT"
+}
